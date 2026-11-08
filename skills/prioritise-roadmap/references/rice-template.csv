@@ -1,0 +1,4 @@
+initiative,metric_targeted,mode,reach_12m,impact,impact_gbp,confidence,build_days,review_hours,effort,score,override,override_reason,cumulative_effort,above_line,quarter
+"Example: SMS booking reminders (SYNTHETIC)",no-show rate,scale,4200,2,,0.8,6,12,=H2+I2/6,=D2*E2*G2/J2,,,=J2,=IF(N2<=CAPACITY,"yes","no"),Q1
+"Example: annual billing (SYNTHETIC)",net revenue,gbp,,,18000,0.5,10,8,=H3+I3/6,=F3*G3/J3,,,=N2+J3,=IF(N3<=CAPACITY,"yes","no"),Q2
+"Example: accessibility fixes, WCAG 2.2 AA (SYNTHETIC)",task completion,scale,4200,1,,0.8,8,6,=H4+I4/6,=D4*E4*G4/J4,yes,"Legal duty (Equality Act 2010, EAA)",=N3+J4,=IF(N4<=CAPACITY,"yes","no"),Q1
