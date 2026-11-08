@@ -20,7 +20,6 @@ Each skill is a plain written file that tells an AI agent how to do one job. Rea
 | Run | `post-launch-review` | Reviews a launch and writes the post-mortem |
 | Run | `governance-cadence` | Squads, weekly updates and decision roles |
 | Lead | `team-design-hiring` | Team design, the 90-day plan and hiring kit |
-| Lead | `award-entry` | Builds the evidence pack for an award entry |
 
 ## Install
 
